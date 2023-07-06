@@ -1,0 +1,135 @@
+/* Add your CSS styles here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #ffae00;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8800;
+}
+
+.page-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff5500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff4400;
+}
+
+.cookie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cookie {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cookie:hover {
+    transform: scale(1.05);
+}
+
+.cookie img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ff5500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #ff4400;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #666;
+}
+body {
+    background-color: #e1eaff;
+  }
+  body {
+    background: linear-gradient(to bottom, #ffae00, #e1eaff);
+  }
+    
